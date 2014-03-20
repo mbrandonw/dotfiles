@@ -10,7 +10,7 @@
 alias ga='git add'
 alias gl='git pull --prune'
 alias glog="git log --graph -20 --pretty=format:'%Cred%h%Creset %Cgreen(%cr)-%C(yellow)%d%Creset %s %C(bold cyan)<%an>%Creset' --abbrev-commit --date=relative"
-alias gp='git push origin HEAD'
+alias gp='git push'
 alias gd='git diff'
 alias gdt='git difftool'
 alias gc='git commit'
@@ -26,3 +26,4 @@ alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
 alias gfo="git fetch origin"
 alias grbom="git rebase origin/master"
 alias grb="git rebase"
+alias grbi="git rebase -i"
