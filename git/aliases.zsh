@@ -12,6 +12,7 @@ alias gl='git pull --prune'
 alias glog="git log --graph -20 --pretty=format:'%Cred%h%Creset %Cgreen(%cr)-%C(yellow)%d%Creset %s %C(bold cyan)<%an>%Creset' --abbrev-commit --date=relative"
 alias gp='git push'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gdt='git difftool'
 alias gc='git commit'
 alias gca='git commit -a'
