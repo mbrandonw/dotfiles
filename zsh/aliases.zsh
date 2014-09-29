@@ -1,9 +1,9 @@
 alias reload!='. ~/.zshrc'
 
 # Easy cd into certain projects.
-alias dotfiles='cd ~/Projects/dotfiles'
-alias kickstarter='cd ~/Projects/kickstarter'
-alias kickstarter_ios='cd ~/Projects/kickstarter_ios'
+alias dotfiles='cd ~/.dotfiles'
+alias kickstarter='cd ~/projects/kickstarter-web'
+alias kickstarter_ios='cd ~/projects/kickstarter-ios'
 
 # List files nicely
 alias ll='ls -l'
