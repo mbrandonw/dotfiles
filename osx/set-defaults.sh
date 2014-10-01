@@ -189,6 +189,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 # Automatically illuminate built-in MacBook keyboard in low light
 defaults write com.apple.BezelServices kDim -bool true
@@ -493,6 +494,7 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Change default downloads folder to ~/Dropbox/Downloads
 defaults write com.apple.Safari DownloadFolder "${HOME}/Dropbox/Downloads"
+defaults write com.apple.Safari DownloadsPath "${HOME}/Dropbox/Downloads"
 
 
 ###############################################################################
