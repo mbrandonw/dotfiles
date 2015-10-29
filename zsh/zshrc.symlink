@@ -45,3 +45,5 @@ unset config_files
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="${HOME}/Library/Android/sdk/platform-tools:${HOME}/Library/Android/sdk/tools:$PATH"
 eval "$(rbenv init -)"
+
+export DISABLE_SPRING=1
