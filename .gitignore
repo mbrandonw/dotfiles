@@ -1,4 +1,10 @@
-sublime2/User/Package\ Control.sublime-settings
-sublime2/User/Package Control.last-run
+atom.symlink/.apm
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/compile-cache/
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes
+
 git/gitconfig.symlink
 zsh/private.zsh
