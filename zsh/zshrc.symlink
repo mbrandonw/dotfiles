@@ -47,4 +47,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="${HOME}/Library/Android/sdk/platform-tools:${HOME}/Library/Android/sdk/tools:$PATH"
 eval "$(rbenv init -)"
 
+export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
+
 export DISABLE_SPRING=1
+
+if [ -e ~/.ksr.rc ]; then source ~/.ksr.rc; fi # Provisioned by ksr laptop script
